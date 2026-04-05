@@ -1,3 +1,4 @@
+import Header from "@/components/layout/Header";
 
 export default function MainLayout({
   children,
@@ -6,6 +7,7 @@ export default function MainLayout({
 }) {
   return (
     <>
+    <Header />
       {children}
     </>
   );
